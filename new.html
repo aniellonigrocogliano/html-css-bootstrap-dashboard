@@ -120,23 +120,23 @@
                   <div class="col-12 col-md-6 text-start py-3">
                     <label for="nome" class="form-label">Nome</label>
                   </div>
-                  <div class="col-12 col-md-6 text-start py-3"> 
-                    <input type="text" placeholder="Samsung Galaxy 10 Plus" class="form-control" id="nome" >
+                  <div class="col-12 col-md-6 text-start py-3">
+                    <input type="text" placeholder="Samsung Galaxy 10 Plus" class="form-control" id="nome">
                   </div>
                 </div>
                 <div class="row g-0">
                   <div class="col-12 col-md-6 text-start py-3">
                     <label for="Prezzo" class="form-label">Prezzo</label>
                   </div>
-                  <div class="col-12 col-md-6 text-start py-3"> 
-                    <input type="number" placeholder="99.00" class="form-control" id="Prezzo" >
+                  <div class="col-12 col-md-6 text-start py-3">
+                    <input type="number" placeholder="99.00" class="form-control" id="Prezzo">
                   </div>
                 </div>
                 <div class="row g-0">
                   <div class="col-12 col-md-6 text-start py-3">
                     <label for="Marca" class="form-label">Marca</label>
                   </div>
-                  <div class="col-12 col-md-6 text-start py-3"> 
+                  <div class="col-12 col-md-6 text-start py-3">
                     <select class="form-select " aria-label="Default select example">
                       <option selected class="fw-bold">---Seleziona---</option>
                       <option value="Samsung">Samsung</option>
@@ -144,20 +144,38 @@
                       <option value="Xiaomi">Xiaomi</option>
                     </select>
                   </div>
-                
-                    <textarea class="form-control fs-5" rows="5" placeholder="Inserisci descrione del prodotto, massimo 100 caratteri." id="commenti" ></textarea>
-                    <label for="commenti"   ></label>
-                  
+
+                  <textarea class="form-control fs-5" rows="5"
+                    placeholder="Inserisci descrione del prodotto, massimo 100 caratteri." id="commenti"></textarea>
+                  <label for="commenti"></label>
+
                 </div>
 
                 <div class="input-group mb-3 py-3">
-                  <input type="file" class="form-control" id="inputGroupFile02">
-  <label class="input-group-text" for="inputGroupFile02">Immagine</label>
-</div>
-              </div>
-              <div class="col-12 col-lg-6">
+                  <input type="file" class="form-control" id="imagine">
+                  <label class="input-group-text" for="imagine">Immagine</label>
+                </div>
+                <div class="btn-group d-flex align-items-start" role="group"
+                  aria-label="Basic radio toggle button group">
+                  <input type="radio" class="btn-check" name="btnradio" id="Disponibile" autocomplete="off">
+                  <label class="btn btn-outline-secondary" for="Disponibile">Disponibile</label>
+
+                  <input type="radio" class="btn-check" name="btnradio" id="Esaurito" autocomplete="off">
+                  <label class="btn btn-outline-secondary" for="Esaurito">Esaurito</label>
+
+                  <input type="radio" class="btn-check" name="btnradio" id="Fuori" autocomplete="off">
+                  <label class="btn btn-outline-secondary" for="Fuori">Fuori produzione</label>
+
+                  <input type="radio" class="btn-check" name="btnradio" id="arrivo" autocomplete="off">
+                  <label class="btn btn-outline-secondary" for="arrivo">In arrivo</label>
+                </div>
 
               </div>
+
+              <div class="col-12 col-lg-6">
+
+
+              </div> <button type="button" class="btn btn-primary">Salva</button>
             </form>
         </div>
       </main>

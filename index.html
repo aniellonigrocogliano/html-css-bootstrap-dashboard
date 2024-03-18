@@ -16,7 +16,7 @@
 <body>
   <header>
     <!-- nav -->
-    <nav class="navbar navbar-expand-md d-md-none bg-dark" data-bs-theme="dark">
+    <nav class="navbar navbar-expand-md d-md-none bg-dark " data-bs-theme="dark" >
       <!-- Container -->
       <div class="container">
         <!-- brand -->
@@ -36,7 +36,7 @@
   <div class="container-fluid">
     <div class="row vh-100">
       <!-- Sidebar -->
-      <div class="sidebar col-md-4 col-lg-3 collapse d-md-block bg-dark mh-100 " id="navbarSupportedContent">
+      <div class="sidebar col-md-3 col-lg-2 collapse d-md-block bg-dark min-vh-100 " id="navbarSupportedContent">
         <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto  text-white text-decoration-none">
           <svg class="bi pe-none me-2" width="40" height="32">
             <use xlink:href="#bootstrap"></use>
@@ -125,16 +125,17 @@
         </div>
       </div>
       <!-- Main -->
-      <main class="col-md-8 col-lg-9">
+      <main class="col-md-9 col-lg-10">
         <div class="container mt-2">
           <div class="row">
             <div class="col-6">
-              <h2 class="text-bold">10 prodotti trovati</h2>
+              <h3 class="text-bold">10 prodotti trovati</h3>
             </div>
             <div class="col-6 d-inline-flex gap-0 justify-content-end">
-              <a href="#" class="btn active border border-dark-subtle rounded-0" role="button" data-bs-toggle="button" aria-pressed="true">Esporta</a>
-              <a href="./new.html" class="btn active border border-dark-subtle rounded-0" role="button" data-bs-toggle="button" aria-pressed="true">Nuovo</a>
-
+              <div class="btn-group" role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-outline-secondar">Esporta</button>
+                <a href="new.html" class="btn btn-outline-secondar">Nuovo</a>
+              </div>
             </div>
           </div>
           <hr class="p-3"> 
